@@ -1,0 +1,25 @@
+{
+  "name": "jsmethods",
+  "version": "1.0.0",
+  "description": "Javascript Array and Object Methods examples",
+  "main": "index.js",
+  "directories": {
+    "test": "spec"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmcacioppo/JSArrayAndObjectMethods.git"
+  },
+  "author": "Joseph Cacioppo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcacioppo/JSArrayAndObjectMethods/issues"
+  },
+  "homepage": "https://github.com/jmcacioppo/JSArrayAndObjectMethods#readme",
+  "dependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
