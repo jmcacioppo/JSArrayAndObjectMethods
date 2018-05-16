@@ -15,6 +15,7 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "webpack"
+    "build": "webpack",
+    "tsc": "tsc src/*.ts"
   }
 }
