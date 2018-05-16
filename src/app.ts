@@ -4,6 +4,7 @@ var rightNow = moment().format('MMMM Do YYYY, h:mm:ss a');
 console.log(rightNow);
 
 var arr = [1, 2, 3, 4, 5];
+console.log(arr);
 
 export function sum(a, b) {
     return a + b;
