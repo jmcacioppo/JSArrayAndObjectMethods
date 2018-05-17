@@ -1,5 +1,9 @@
-const sum = require('../src/app');
+const arrayFunctions = require('../src/app');
 
-test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
+test('concat [1, 2, 3] + [4, 5, 6] to equal [1, 2, 3, 4, 5, 6]', () => {
+    expect(arrayFunctions.concatTwoArrays([1,2,3], [4,5,6])).toEqual([1,2,3,4,5,6]);
+});
+
+test('filter array so nothing is less than 5', () => {
+    expect(arrayFunctions.filterArray([1, 3, 9], 5)).toEqual([1, 3]);
 });
