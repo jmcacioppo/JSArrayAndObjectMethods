@@ -11,3 +11,7 @@ test('check if every item in [1, 3, 5] is less than 4', () => {
 test('filter [1, 3, 9] so nothing is less than 5', () => {
     expect(arrayFunctions.filterArray([1, 3, 9], 5)).toEqual([1, 3]);
 });
+
+test('find first number in [1, 3, 9] that is less than 3', () => {
+    expect(arrayFunctions.findIndexOfValue([1, 3, 9], 3)).toEqual(1);
+});
