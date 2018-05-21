@@ -26,3 +26,34 @@ function findIndexOfValue(arr, value) {
     return arr.indexOf(value);
 }
 exports.findIndexOfValue = findIndexOfValue;
+// Join an array
+function joinArray(arr) {
+    return arr.join();
+}
+exports.joinArray = joinArray;
+// Call function for each number in array
+function squareEachNumber(arr) {
+    function squareNumber(num) {
+        return num * num;
+    }
+    return arr.map(squareNumber);
+}
+exports.squareEachNumber = squareEachNumber;
+// Call function to reduce array to be sum of all numbers
+function sumOfNumbers(arr) {
+    function sum(total, num) {
+        return total + num;
+    }
+    return arr.reduce(sum);
+}
+exports.sumOfNumbers = sumOfNumbers;
+// Slice an array to get certain values
+function sliceArray(arr) {
+    return arr.slice(1, 3);
+}
+exports.sliceArray = sliceArray;
+// Sort an array of numbers (ascending)
+function sortArray(arr) {
+    return arr.sort(function (a, b) { return a - b; });
+}
+exports.sortArray = sortArray;
