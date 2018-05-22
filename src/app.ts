@@ -2,6 +2,7 @@ import * as moment from 'moment/moment';
 
 var rightNow = moment().format('MMMM Do YYYY, h:mm:ss a');
 console.log(rightNow);
+document.write(rightNow);
 
 interface TwoNumArraysIntoOne {
     (arr1: Array<number>, arr2: Array<number>): Array<number>;
