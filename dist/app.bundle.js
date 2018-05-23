@@ -71,6 +71,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "../css/style.css":
+/*!************************!*\
+  !*** ../css/style.css ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module parse failed: Unexpected token (1:3)\\nYou may need an appropriate loader to handle this file type.\\n| h1 {\\n|     color: blue;\\n| }\");\n\n//# sourceURL=webpack:///../css/style.css?");
+
+/***/ }),
+
 /***/ "../node_modules/moment/locale sync recursive ^\\.\\/.*$":
 /*!***************************************************!*\
   !*** ../node_modules/moment/locale sync ^\.\/.*$ ***!
@@ -1465,7 +1476,7 @@ eval("module.exports = function(module) {\r\n\tif (!module.webpackPolyfill) {\r\
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nexports.__esModule = true;\nvar moment = __webpack_require__(/*! moment/moment */ \"../node_modules/moment/moment.js\");\nvar rightNow = moment().format('MMMM Do YYYY, h:mm:ss a');\nconsole.log(rightNow);\ndocument.write(rightNow);\n// Concatentates two arrays\nexports.concatTwoArrays = function (arr1, arr2) { return arr1.concat(arr2); };\n// Check every item to check if they all pass a condition\nfunction checkEveryItem(arr, filter) {\n    function checkNumber(num) {\n        return num < filter;\n    }\n    return arr.every(checkNumber);\n}\nexports.checkEveryItem = checkEveryItem;\n// Fills entire array with desired value\nfunction filterArray(arr, filter) {\n    function checkNumber(num) {\n        return num < filter;\n    }\n    return arr.filter(checkNumber);\n}\nexports.filterArray = filterArray;\n// Find index of value in array\nfunction findIndexOfValue(arr, value) {\n    return arr.indexOf(value);\n}\nexports.findIndexOfValue = findIndexOfValue;\n// Join an array\nfunction joinArray(arr) {\n    return arr.join();\n}\nexports.joinArray = joinArray;\n// Call function for each number in array\nfunction squareEachNumber(arr) {\n    function squareNumber(num) {\n        return num * num;\n    }\n    return arr.map(squareNumber);\n}\nexports.squareEachNumber = squareEachNumber;\n// Call function to reduce array to be sum of all numbers\nfunction sumOfNumbers(arr) {\n    function sum(total, num) {\n        return total + num;\n    }\n    return arr.reduce(sum);\n}\nexports.sumOfNumbers = sumOfNumbers;\n// Slice an array to get certain values\nfunction sliceArray(arr) {\n    return arr.slice(1, 3);\n}\nexports.sliceArray = sliceArray;\n// Sort an array of numbers (ascending)\nfunction sortArray(arr) {\n    return arr.sort(function (a, b) { return a - b; });\n}\nexports.sortArray = sortArray;\n\n\n//# sourceURL=webpack:///./app.js?");
+eval("\nexports.__esModule = true;\nvar moment = __webpack_require__(/*! moment/moment */ \"../node_modules/moment/moment.js\");\n__webpack_require__(/*! ../css/style.css */ \"../css/style.css\");\nvar rightNow = moment().format('MMMM Do YYYY, h:mm:ss a');\nconsole.log(rightNow);\ndocument.write(rightNow);\n// Concatentates two arrays\nexports.concatTwoArrays = function (arr1, arr2) { return arr1.concat(arr2); };\n// Check every item to check if they all pass a condition\nfunction checkEveryItem(arr, filter) {\n    function checkNumber(num) {\n        return num < filter;\n    }\n    return arr.every(checkNumber);\n}\nexports.checkEveryItem = checkEveryItem;\n// Fills entire array with desired value\nfunction filterArray(arr, filter) {\n    function checkNumber(num) {\n        return num < filter;\n    }\n    return arr.filter(checkNumber);\n}\nexports.filterArray = filterArray;\n// Find index of value in array\nfunction findIndexOfValue(arr, value) {\n    return arr.indexOf(value);\n}\nexports.findIndexOfValue = findIndexOfValue;\n// Join an array\nfunction joinArray(arr) {\n    return arr.join();\n}\nexports.joinArray = joinArray;\n// Call function for each number in array\nfunction squareEachNumber(arr) {\n    function squareNumber(num) {\n        return num * num;\n    }\n    return arr.map(squareNumber);\n}\nexports.squareEachNumber = squareEachNumber;\n// Call function to reduce array to be sum of all numbers\nfunction sumOfNumbers(arr) {\n    function sum(total, num) {\n        return total + num;\n    }\n    return arr.reduce(sum);\n}\nexports.sumOfNumbers = sumOfNumbers;\n// Slice an array to get certain values\nfunction sliceArray(arr) {\n    return arr.slice(1, 3);\n}\nexports.sliceArray = sliceArray;\n// Sort an array of numbers (ascending)\nfunction sortArray(arr) {\n    return arr.sort(function (a, b) { return a - b; });\n}\nexports.sortArray = sortArray;\n\n\n//# sourceURL=webpack:///./app.js?");
 
 /***/ })
 

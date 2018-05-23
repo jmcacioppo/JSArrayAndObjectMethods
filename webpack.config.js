@@ -9,5 +9,15 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].bundle.js',
     },
-    mode: 'development'
+    mode: 'development',
+    module: {
+        rules: [
+            {
+                test: '/\.css$/',
+                include: path.resolve(__dirname, 'css'),
+                exclude: '/node_modules/',
+                use: 'css-loader'
+            }
+        ]
+    }
 };

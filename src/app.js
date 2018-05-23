@@ -1,6 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var moment = require("moment/moment");
+require("../css/style.css");
 var rightNow = moment().format('MMMM Do YYYY, h:mm:ss a');
 console.log(rightNow);
 document.write(rightNow);
