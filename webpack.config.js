@@ -1,9 +1,9 @@
 const path = require('path');
 const webpack = require('webpack');
 module.exports = {
-    context: path.resolve(__dirname, 'src'),
+    context: path.resolve(__dirname),
     entry: {
-        app: './app.js',
+        app: './src/app.js',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -13,10 +13,10 @@ module.exports = {
     module: {
         rules: [
             {
-                test: '/\.css$/',
+                test: /\.css$/,
                 include: path.resolve(__dirname, 'css'),
                 exclude: '/node_modules/',
-                use: 'css-loader'
+                use: ['style-loader', 'css-loader']
             }
         ]
     }
