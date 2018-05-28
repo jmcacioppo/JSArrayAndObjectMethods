@@ -9,6 +9,8 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
+    "browser-sync": "^2.24.4",
+    "browser-sync-webpack-plugin": "^2.2.2",
     "css-loader": "^0.28.11",
     "jest": "^22.4.3",
     "moment": "^2.22.1",
@@ -19,7 +21,8 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "webpack-dev-server",
+    "dev": "webpack-dev-server --watch",
+    "start": "webpack && npm run dev",
     "tsc": "tsc src/*.ts"
   }
 }
