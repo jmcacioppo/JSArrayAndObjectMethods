@@ -89,7 +89,7 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader!./styl
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"h1 {\\n    color: green;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./css/style.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"h1 {\\n    color: blue;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./css/style.css?./node_modules/css-loader");
 
 /***/ }),
 

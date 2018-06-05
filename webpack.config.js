@@ -15,7 +15,8 @@ module.exports = {
         new BrowserSyncPlugin({
             host: 'localhost',
             port: 3000,
-            proxy: 'http://localhost:8080/'
+            proxy: 'http://localhost:8080/',
+            files: ['./index.html', './dist/app.bundle.js', './css/style.css']
         },
         {
             reload: false

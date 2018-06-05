@@ -12,6 +12,7 @@
     "browser-sync": "^2.24.4",
     "browser-sync-webpack-plugin": "^2.2.2",
     "css-loader": "^0.28.11",
+    "gulp": "^3.9.1",
     "jest": "^22.4.3",
     "moment": "^2.22.1",
     "style-loader": "^0.21.0",
@@ -21,8 +22,8 @@
   },
   "scripts": {
     "test": "jest",
-    "dev": "webpack-dev-server --watch",
-    "start": "webpack && npm run dev",
+    "start": "webpack-dev-server",
     "tsc": "tsc src/*.ts"
-  }
+  },
+  "dependencies": {}
 }
